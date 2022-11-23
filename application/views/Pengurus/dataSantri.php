@@ -231,10 +231,6 @@
 									<tr class="text-info">
 										<th colspan="2">Data Santri</th>
 									</tr>
-									<!-- <tr>
-										<td><b>NIS</b></td>   
-										<td><?=$snt['nis']; ?></td>   
-									</tr> -->
 									<tr>
 										<td><b>Angkatan</b></td>   
 										<td><?=$snt['tahun_masuk']; ?></td>   
@@ -258,6 +254,10 @@
 
 									<tr class="text-info">
 										<th colspan="2">Data Diri</th>
+									</tr>
+									<tr>
+										<td><b>NIS</b></td>   
+										<td><?=$snt['nis']; ?></td>   
 									</tr>
 									<tr>
 										<td>NIK</td>   
